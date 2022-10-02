@@ -14,3 +14,9 @@
 .btn:hover{
     background-color: rgba(255, 149, 0, 0.524);
 }
+
+.contenedor{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
