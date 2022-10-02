@@ -1,0 +1,16 @@
+.contenedor input{
+    background-color: rgba(255, 255, 255, 0.415);
+    border-radius: 20px;
+    border: none;
+}
+
+.btn{
+    background-color: rgba(241, 32, 32, 0.541);
+    border-radius: 20px;
+    border: none;
+    transition: background-color .5s;
+}
+
+.btn:hover{
+    background-color: rgba(255, 149, 0, 0.524);
+}

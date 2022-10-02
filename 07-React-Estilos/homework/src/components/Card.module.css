@@ -1,0 +1,50 @@
+.divContenedor{
+    background-color: rgba(189, 228, 228, 0.436);
+    margin: 15px;
+    width: 300px;
+    height: 175px;
+    border-radius: 20px;
+    border: rgba(0, 0, 0, 0.443) solid 2px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.infoCont{
+    height: 175px;
+    background-color: rgba(238, 237, 192, 0.792);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.subDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    justify-content: center;
+}
+
+.btn{
+    width: 40px;
+    margin: 3px;
+    background-color: rgba(255, 0, 0, 0.519);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    transition: background-color .5s;
+}
+
+.btn:hover{
+    background-color: rgb(255, 162, 0);
+    border: 1px solid black;
+}
+
+.contenedorBtn{
+    display: flex;
+    justify-content: flex-end;
+}
