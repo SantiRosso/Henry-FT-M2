@@ -14,3 +14,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  background-image: linear-gradient(to right bottom, #ffd200, #f8a600, #e87b13, #d15120, #b32727);
+  border-bottom: 2px solid black;
+}
+
+.container{
+  border-radius: 20px;
+  border: 2px solid black;
+  background-image: linear-gradient(to right bottom, #ffd200, #f8a600, #e87b13, #d15120, #b32727);
+}
