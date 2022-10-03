@@ -5,7 +5,11 @@ import './Nav.css';
 
 function Nav({onSearch}) {
   return (
-    <div>Nav</div>
+    <div>
+      <img src={Logo} alt='img not found' />
+      <span>Henry Wheater App</span>
+      <SearchBar onSearch={onSearch}/>
+    </div>
   );
 };
 
