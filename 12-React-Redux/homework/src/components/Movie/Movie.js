@@ -1,9 +1,36 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { createPortal } from 'react-dom';
+// import { useDispatch, useSelector } from 'react-redux';
 import { connect } from 'react-redux';
-import { getMovieDetail } from '../../actions/index';
+import { getMovieDetail, cleanDetail } from '../../actions/index';
 
 import './Movie.css';
+
+// const Movie = (props) => {
+//     const movieId = props.match.params.id;
+//     const dispatch = useDispatch();
+//     const movieDetail = useSelector((state) => state.movieDetail);
+
+//     useEffect(() => {
+//         dispatch(getMovieDetail(movieId));
+
+//         return function () {
+//             dispatch(cleanDetail());
+//         };
+//     }, [dispatch, movieId]);
+
+//     return (
+//         <div className="movie-detail"> 
+//             <h4>{movieDetail.Title}</h4>
+//             <p>{movieDetail.Year}</p>
+//             <img src={movieDetail.Poster} alt='icon'></img>
+//             <p>{movieDetail.Plot}</p>
+//         </div>
+//     )
+// }
+
+// export default Movie;
+
 
 class Movie extends React.Component {
 

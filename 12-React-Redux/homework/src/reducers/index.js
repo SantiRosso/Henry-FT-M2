@@ -1,4 +1,4 @@
-import { GET_MOVIES, GET_MOVIE_DETAIL, ADD_MOVIE_FAVORITE, REMOVE_MOVIE_FAVORITE } from '../actions/index.js';
+import { GET_MOVIES, GET_MOVIE_DETAIL, ADD_MOVIE_FAVORITE, REMOVE_MOVIE_FAVORITE, CLEAN_DETAIL } from '../actions/index.js';
 
 const initialState = {
     moviesFavourites: [],
@@ -29,6 +29,12 @@ const initialState = {
         return {
           ...state,
           movieDetail:action.payload          
+        }
+    }
+    if (action.type === CLEAN_DETAIL) {
+        return {
+          ...state,
+          movieDetail: {}          
         }
     }
     return { ...state };
